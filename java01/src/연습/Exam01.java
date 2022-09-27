@@ -17,6 +17,8 @@ public class Exam01 {
 		int area = intSquare * intSquare2;
 		
 		// 출력
+		// 산술 : 숫자여야함
+		// 결합 : 더해지는 값들 중 하나라도 String이면 결합!! 결과도 무조건 String
 		JOptionPane.showMessageDialog(null, "사각형의 면적은 " + area + " 입니다.");
 
 	}
